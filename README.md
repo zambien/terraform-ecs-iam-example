@@ -14,6 +14,7 @@ The userdata will create an empty hello world index.html that can be modified an
 ## Security notes:
 
 This is meant to be an example for IAM only.  Other security best practices are not implemented so that the example is clear and not muddied with other code that could be confusing.  For example:
+
     * The instance is exposed to the internet (public address is true).  This is generally a very bad idea.
     * The instance is open to SSH.  You should be using a bastion host to access your instances.
     * The instance is not patched.
