@@ -1,5 +1,5 @@
 # terraform-ecs-iam-example
-Code to start you off with Terraform, ECS, and IAM access control.  This gives you a much better security posture than passing your secret keys all over the place.
+Code to start off with Terraform, ECS, and IAM access control.  This gives a much better security posture than passing secret keys all over the place.
 
 ## What you get
 You will get an ecs cluster with one task running NGINX that restores a backup from S3 on instance startup and creates an hourly cron job to backup.  You also get all the networking bits necessary to route traffic to NGINX.  The container folder mount is:
